@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "first-solution-client-side-solution",
+    "id": "ec14c1d4-2aa9-4922-a94f-79b9394fdfc5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FirstSolution description"
+      },
+      "longDescription": {
+        "default": "FirstSolution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "first-solution Feature",
+        "description": "The feature that activates elements of the first-solution solution.",
+        "id": "64059de4-8957-442a-962b-8e789eca65fb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/first-solution.sppkg"
+  }
+}

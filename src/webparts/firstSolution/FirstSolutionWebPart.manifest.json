@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "127924ec-c2f0-41f5-97a7-6742c8fc71e8",
+  "alias": "FirstSolutionWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "FirstSolution" },
+    "description": { "default": "FirstSolution description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "FirstSolution"
+    }
+  }]
+}
